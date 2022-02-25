@@ -1,0 +1,33 @@
+  /*Configuração das Bordas*/
+ /* html : <div id="d1"></div> 
+           <div id="d2"></div>
+ */
+ 
+ 
+  #d1{
+    width: 500px;
+    height: 500px;
+    background-color: #DDD; /*cinza*/
+    border-style: solid ; /*tipo de borda*/
+    border-width: ; /*largura da borda*/
+    border-color: #F00; /*VERMELHO*/
+  
+  }
+  #d2{
+    width: 500px;
+    height: 500px;
+    background-color: #DDD;
+    border: #fff solid 2px;
+  
+  }
+  
+  /*bordas parte 2* borda : cima , baixo , esquerdae direita */ 
+  
+  p {
+    width: 300px;
+    border-top: #000 solid 10px; /*cima*/
+    border-bottom: #fff solid 10px; /*baixo*/
+    border-right: blue solid 10px; /*direita*/
+    border-left: pink solid 10px; /*esquerda*/
+ 
+  }

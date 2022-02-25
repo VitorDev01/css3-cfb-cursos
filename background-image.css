@@ -1,0 +1,60 @@
+    /*Propriedade background de imagens */
+    /*näo é prioridade exclusiva para o body*/
+    
+    body {                  
+      background-image: url(cfb.jpg)
+      background-size: 200px 100px ; /*dimensäo da img*/
+  /* propriedade usada para imagem näo se repetir*/
+      background-repeat: no-repeat;/*x,y*/
+      /*posiçäo*/
+      background-position: left top; /*horizontal e vertical*/
+      background-position: 200px 200px;
+      
+    }
+    p {
+      font-size: 30pt;
+      color:#fff;
+      background-color: #0F0;
+      background-image: url(curso.png)
+      background-position: 0px 8px;
+    }
+    
+    /*Baground Parte 2 formataçäo (Border) Borda */
+    
+    #d1,#d2,#d3 { /*propriedades em comun*/
+     
+      border: 10px /*solid*/ dott #000; /*espessura da linha, tipo e cor*/
+      padding: 0px 100px 50px 10px; /*controla a margem interna do elemento*/
+      background: #0F0;
+      
+    }
+    #d1 {
+      background-clip: border-box;
+    }
+    #d2 {
+      background-clip: padding-box;
+    }
+    #d3 {
+      background-clip: content-box; /*aparece só onde existe conteudo dentro da div*/
+    }
+    
+    /*Rolagem da imagem de fundo e configurar o tamanho da imagem de fundo  */
+    
+    body {
+      background-image: url(cfb.jpg), url(marcador.png);
+      background-repeat: no-repeat, repeat;
+      background-size: 400px, 30px;
+    /* fixed näo role a imagem*/
+      background-attachment: scroll, fixed ;
+    /*scroll role a imagem*/
+    
+    }
+     
+    /*metapropriedade background  */
+    
+    body {
+      background: #AAA url(cfb.jpg) no-repeat 0px 0px /*tamanho da img*/ / 100% 100%; /*4 propriedades em uma só*/ /* % fundo de acordo com o tamanho da janela*/
+  
+    }
+    
+    

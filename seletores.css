@@ -1,0 +1,30 @@
+     /*Seletores CSS3 */
+     /*selecionando diretamente a tag*/
+     /*Inline Prioridade maior*/
+  tag {
+       /*paremetros*/
+     color: red; /*cor por escrito*/
+     color: #FF0000; /*cor por codigo hexadecimal*/
+     font-size: 20pt; /*pt pontos*/
+  }
+    /*seletor para IDs # *
+    /*somente este elemento*/
+  #p1 {
+     color: blue;
+     color: #00f;
+     
+  }
+   /*seletor classes*/
+   /*pode indicar varios elementos para esta classe*/
+  .txt {
+    color:#0f0; /*verde*/
+    font-size: 30pt;
+  }
+  /* mesma formataçäo para multiplas tags*/
+  h4,h5,h6 {
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial
+    text-align: center;
+    font-weight: lighter; /*sem negrito*/
+  }
