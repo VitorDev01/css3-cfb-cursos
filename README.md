@@ -6,6 +6,7 @@ Professor Bruno Campos CFB cursos
 
 ## :ledger: Aulas 
 
-- 01 : seletores . # tag 
-- 02 : background-image: url();
-- 03 : border 
+- 00 : `comentários /*  */`
+- 01 : `seletores . # tag`
+- 02 : `background-image: url();`
+- 03 : `border` 
