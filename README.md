@@ -10,3 +10,5 @@ Professor Bruno Campos CFB cursos
 - 01 : `seletores . # tag`
 - 02 : `background-image: url();`
 - 03 : `border` 
+- 04 : `cores RGB e Transparência rgba(alpha)`
+- 05 : `margens e centralização`
