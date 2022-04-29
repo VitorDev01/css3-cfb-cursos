@@ -1,0 +1,26 @@
+/* Aula #10 Bordas parte 3*/
+
+/*Bordas arredondadas*/
+        #borda {
+          border-radius: 15px;
+        }
+/*Aula 12 cores rgb e transparência*/
+/*não usar cores saturadas de mais*/
+        valor em decimal
+        div {
+        background: rgb(255,0,0) vermelho
+                    rgb(0,255,0) verde
+                    rgb(0,0,255) Azul
+        }            
+        /*a de canal Alfa*/
+        div {
+          background: rgba(255,0,0,0.5);
+        }
+        RGBA 
+        red ♥️🍒
+        green 💚🍏
+        blue 💙🔵
+        a Alfa 
+        0 transparência total
+        1 mínino de transparência
+        0.5 metade da opacidade
