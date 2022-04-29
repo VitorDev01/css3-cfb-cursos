@@ -1,0 +1,19 @@
+/*margin espaçamento do elemento para fora */
+      /*HTML
+      <div>
+         Curso De Css
+      </div>
+      */
+      body {
+        margin:0px
+      }
+      div {
+        border:1px solid #000;
+        margin:50px;
+        
+      }
+      Posições {
+        margin: auto; + width: 100%;
+        margin:50px 200px 300px 50px;
+        margin:superior direita inferior esquerda;
+      }
