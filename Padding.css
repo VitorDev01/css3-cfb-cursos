@@ -1,0 +1,18 @@
+/*Espaçmanto interno dos Elementos #14*/
+
+      /*tirando a margem da página*/
+      body {
+        margin:0px;
+      }
+      
+      div {
+        border: 1px solid #000;
+        margin: 100px;  valor para as 4 margens 
+        padding: 100px; /* margin interna de dentro do elemento div*/
+        width: 500px;
+      }
+      
+     /*margin: auto; centraliza tudo*/
+     
+   
+      
