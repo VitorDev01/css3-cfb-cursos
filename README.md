@@ -2,6 +2,8 @@
 Arquivos das Aulas do Curso CSS3 
 Professor Bruno Campos CFB cursos 
 
+`CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets (ou simplesmente CSS), pela qual se define estilos para um projeto web (página de internet). Com efeitos de transição, imagem, imagem de fundo/background e outros, pode-se criar estilos únicos para seus projetos web, alterando diversos aspectos de design no layout da página.`
+
 ![App Ideas Image](css3.jpeg)
 
 ## :ledger: Aulas 
