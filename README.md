@@ -14,3 +14,7 @@ Professor Bruno Campos CFB cursos
 - 03 : `border` 
 - 04 : `cores RGB e Transparência rgba(alpha)`
 - 05 : `margens e centralização`
+- 06 : `padding`
+- 07 : `Preenchimentos & Gradientes`
+- 08 : `Sombras`
+- 09 : `Formatação de textos`
