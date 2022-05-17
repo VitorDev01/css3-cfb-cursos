@@ -1,0 +1,11 @@
+ /*formatação de fontes #18*/
+      @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+       p {
+         font-family: Arial; "Times New Roman", sans-serif
+         font-family: 'Satisfy', cursive;
+         font-style: italic; oblique, 
+         font-size: 30px; /*tamanho*/
+         font-weight: bold; /*negrito*/
+         font-variant: small-caps;
+         font-face
+       }
