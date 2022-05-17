@@ -18,3 +18,7 @@ Professor Bruno Campos CFB cursos
 - 07 : `Preenchimentos & Gradientes`
 - 08 : `Sombras`
 - 09 : `Formatação de textos`
+- 10 : `Formatação para fontes`
+- 11 : `Formatação para links`
+- 12 : `Transformações 2D`
+- 13 : `Transformações 3D`
