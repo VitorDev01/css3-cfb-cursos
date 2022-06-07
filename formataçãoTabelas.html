@@ -1,0 +1,78 @@
+<!--Aula 24 Formatação de tabelas-->
+
+<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Aula 24</title>
+    
+    <style>
+        body {
+          background-color: silver;
+          font-family: serif;
+        }
+        
+        table, td, th {
+          border: 3px solid #000;
+         
+        }
+        
+        table {
+          width: 390px;
+          table-layout: fixed; /*todos com mesmo tamanho*/
+          border-collapse: collapse; /*une as linhas*/
+          
+        }
+        
+        td ,th {
+          height: 40px;
+          vertical-align: middle;
+          text-align: center;
+          
+        }
+        
+        th {
+           background-color: #8a8;
+           color: #fff;
+           font-size: 25px;
+        }
+        /*formatação zebra*/
+        tr:nth-child(even) { /*preenche os elementos pares*/
+        background: #ddd;
+          
+        }
+    </style>
+    
+  </head>
+  <body>
+      <table>
+        <tr>
+           <th>Peça</th><th>Valor</th><th>Estoque</th>
+        </tr>
+        
+        <tr>
+           <td>Processador</td><td>R$800,00</td><td>30</th>
+        </th>
+        
+        <tr>
+           <td>Memória Ram</td><td>R$150,00</td><td>55</td>
+        </th>
+        
+        <tr>
+           <td>HD</td><td>R$320,00</td><td>20</td>
+        </td>
+        
+        <tr>
+           <td>Cx. Som</td><td>R$50,00</td><td>100</td>
+        </th>
+        
+        <tr>
+           <td>Teclado</td><td>R$30,00</td><td>80</td>
+        </th>
+        
+        <tr>
+           <td>Mouse</td><td>R$20,00</td><td>60</td>
+        </th>
+  </body>
+  
+</html>
