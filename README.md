@@ -22,3 +22,6 @@ Professor Bruno Campos CFB cursos
 - 11 : `Formatação para links`
 - 12 : `Transformações 2D`
 - 13 : `Transformações 3D`
+- 14 : `Formatação /listas`
+- 15 : `Formatação /tabelas`
+- 16 : `Outline`
