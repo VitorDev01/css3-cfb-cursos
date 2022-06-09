@@ -25,3 +25,6 @@ Professor Bruno Campos CFB cursos
 - 14 : `Formatação /listas`
 - 15 : `Formatação /tabelas`
 - 16 : `Outline`
+- 17 : `Display parte1`
+- 18 : `Display parte2`
+- 19 : `FlexBox display:flex`
