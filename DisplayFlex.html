@@ -1,0 +1,64 @@
+<!--Aula 28 FlexBox-->
+<!--É UM VALOR PARA A REGRA DISPLAY DO CSS, QUE MODIFICA A DISPOSIÇÃO DOS ELEMENTOS-->
+<!-- display: flex ; é inserido no elemento PAI-->
+<!--Ha duas direções Row linhas e column-->
+<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Aula 28</title>
+    
+    
+    <style>
+         body {
+           padding-bottom: 500px;
+         }
+         .conteiner {
+           
+           background-color: #EEF;
+           border: 2px solid red;
+           padding: 15px;
+           max-width: 300px;
+           height: 300px;
+           display: flex; /*transforma para direção horizontal*/
+           /*Alinhamento Horizontal*/
+           justify-content: center; /*space around - space between*/
+           /*Alinhamento Vertical*/
+           align-items: center;
+           
+           
+         }
+         
+         .item {
+           background-color: #ccc;
+           border: 2px solid blue;
+           height: 50px;
+           width: 50px;
+         }
+         
+         .box {
+           background-color: #ccc;
+           border: 2px solid blue;
+           height: 50px;
+           width: 50px;
+         }
+         #item-1 {
+           flex-grow: 2; /*cresce o máximo possível da área*/
+         }
+    </style>
+    <body>
+      <!--Conteiner-->
+      <div class="conteiner"> <!--Pai-->
+         <div class="item">1</div> <!--Filhos-->
+         <div class="item">2</div> 
+         <div class="item">3</div> 
+      </div>
+     
+      <!--Filhos-->
+      <div class="conteiner">
+         <div class="box" id="item-1">1</div> 
+         <div class="box" id="item-2">2</div> 
+         <div class="box" id="item3">3</div> 
+      </div>
+    </body>
+</html>

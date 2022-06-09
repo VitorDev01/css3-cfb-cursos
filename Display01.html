@@ -1,0 +1,71 @@
+<!--Aula 26 Display pt01-->
+
+<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Aula 26</title>
+    
+    <style>
+     div, span {
+       border: 1px solid #000;
+       margin: 10px;
+       width: 200px;
+       height: 200px;
+     }
+     
+     #d1 {
+        display: block; /* O elemento vai ocupar toda área disponível na linha em que se encontra*/
+     
+     
+     
+        /*display: none; /*desabilita o elemento*/
+       /* visibility: hidden; esconde o elemento*/
+     }
+     #s1 {
+       
+       display: inline-block;
+     }
+     #d2 {
+       display: block; 
+     }
+     #s2 {
+       display: inline-block;
+     }
+     /*DISPLAY BLOCK : QUEBRA A LINHA NÃO ACEITA ELEMENTOS NA MSM LINHA EGOISTA*/
+     
+     /*DISPLAY INLINE : MENOS EGOÍSTA PERMITE QUE MAIS ELEMENTOS SEJAK ADICIONADOS NA MESMA LINHA MAS NÃO SEGUE O TAMANHO INDICADO*/
+     
+     /*DISPLAY INLINE-BLOCK : UNE O BLOCK COM INLINE PERMITE ELEMENTOS NA MESMA LINHA SEGUE O TAMANHO INDICADO*/
+     
+     /*DISPLAY NONE : DESABILITA O ELEMENTO*/
+    </style>
+  </head>
+  <body>
+    
+     <div id="d1"> <!--Display Block-->
+       
+       DIV 1 Display Block
+       
+     </div>
+     
+     <span id="s1">  <!--Display Inline-->
+       
+       SPAN 1 Display Inline 
+       
+     </span>
+     
+     <div id="d2">
+       
+       DIV 2
+       
+     </div>
+     
+     <span id="s2">
+       
+       SPAN 2
+       
+     </span>
+     
+  </body>
+</html>

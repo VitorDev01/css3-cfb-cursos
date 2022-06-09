@@ -1,0 +1,75 @@
+<!--Aula 27 Display02-->
+
+<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Aula 27</title>
+    
+    <style>
+     div {
+       border: 1px solid #000;
+       background-color: tomato;
+       width: 200px;
+       height: 200px;
+       /*display: table-cell; /*A Div vai se comportar como uma célula de uma tabela como um <td>*/
+       text-align: center;
+       /*vertical-align: middle; /*centralizar na
+       vertical*/
+      margin-bottom: 10px;
+      line-height: 200px;
+     }
+     
+     ol, ul, li {
+       border: 1px solid #000;
+       margin: 0px;
+       padding: 0px;
+       width: 200px;
+       
+     }
+     
+     ol {
+       display: table; /*tabela*/
+       
+     }
+     ul {
+       display: table-row; /*linhas*/
+     }
+     li {
+       display: table-cell; /*celulas*/
+       text-align: center;
+     }
+     .t {
+       background-color: turquoise;
+     }
+    </style>
+  </head>
+  <body>
+    
+       <p>CSS NA PRÁTICA</p>
+       
+       <div>
+           DIV 
+       </div>
+       
+       <ol class="t">
+          <ul>
+            <li>Cor</li>
+            <li>Forma</li>
+            <li>Objeto</li>
+          </ul>
+          
+          <ul>
+             <li>Verde</li>
+             <li>Redondo</li>
+             <li>Caneta</li>
+          </ul>
+          
+           <ul>
+             <li>Rosa</li>
+             <li>Quadrado</li>
+             <li>Luva</li>
+          </ul>
+       </ol>
+  </body>
+</html>
